@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Araaoma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: url(imagens/aroma.jpg) no-repeat center center/cover;
+            height: 300px;
+            text-align: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #35424a;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .galeria {
+            display: flex;
+            justify-content: space-between;
+        }
+        .galeria img {
+            width: 30%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Bem-vindo ao Restaurante Sabor & Aroma
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+</nav>
+
+<section>
+    <h2>Delícias do Nosso Menu</h2>
+    <p>Venha experimentar pratos sofisticados preparados com os melhores ingredientes.</p>
+
+    <div class="galeria">
+        <img src="imagem1.jpg" alt="Prato 1">
+        <img src="imagem2.jpg" alt="Prato 2">
+        <img src="imagem3.jpg" alt="Prato 3">
+    </div>
+</section>
+
+</body>
+</html>
+
+
+### sobre.html
+
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Restaurante Chique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #35424a;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+</nav>
+
+<section>
+    <h2>Sobre Nós</h2>
+    <p>O Restaurante Chique oferece uma experiência gastronômica única, combinando sabores sofisticados e um ambiente elegante. Nossa equipe é dedicada a proporcionar momentos inesquecíveis aos nossos clientes.</p>
+
+    <div class="galeria">
+        <img src="imagem4.jpg" alt="Ambiente do Restaurante" style="width:30%; border-radius:5px;">
+        <img src="imagem5.jpg" alt="Prato Especial" style="width:30%; border-radius:5px;">
+    </div>
+</section>
+
+</body>
+</html>
